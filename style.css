@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5aab7;
+}
+
+#scene {
+
+    width: 100vw;
+    /* svarer til 2600px */
+    height: 56.25vw;
+    /* svarer til 900 px */
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    font-family: Kohinoor Bangla;
+    font-size: 3em;
+    color: white;
+}
+
+h2 {
+    font-family: Kohinoor Bangla;
+    font-size: 2em;
+    color: white;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font: 1em;
+    color: white;
+}
