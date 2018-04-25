@@ -33,3 +33,86 @@ p {
     font: 1em;
     color: white;
 }
+
+nav ul li a {
+    font-size: 1em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+    border-top: solid #FFF 2px;
+}
+
+nav ul li a:hover {
+    color: #BCABAE;
+    border-top: solid rgb(244, 145, 45) 2px;
+}
+
+.handle {
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    ;
+}
+
+.handle:active {
+    color: rgb(244, 145, 45);
+}
+
+
+header {
+    height: 55px;
+}
+
+nav {
+    margin-top: 0;
+    float: right;
+    width: auto;
+}
+
+nav ul {
+    width: auto;
+    background-color: transparent;
+    padding-top: 0px;
+
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1.4em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    padding: 20px 10px;
+    display: block;
+    border-top: solid #FFF 2px;
+}
+
+.handle {
+    display: none;
+}
+
+.showing {
+    font-size: 0.6em;
+}
+
+}
