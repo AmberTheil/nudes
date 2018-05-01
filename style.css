@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f5aab7;
+    background-color: #8fc6de;
 }
 
 #scene {
@@ -11,7 +11,6 @@ body {
     height: 56.25vw;
     /* svarer til 900 px */
     position: relative;
-    overflow: hidden;
 }
 
 
@@ -24,6 +23,7 @@ h1 {
 
 h2 {
     font-family: Kohinoor Bangla;
+    text-align: center;
     font-size: 2em;
     color: white;
 }
@@ -114,5 +114,280 @@ nav ul li a {
 .showing {
     font-size: 0.6em;
 }
+
+#send {
+    background-image: linear-gradient(to bottom, #EC892A, #c26c1b);
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: Kohinoor Bangla;
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    left: 4vw;
+    top: 29vw;
+
+}
+
+#sendikke {
+    background-image: linear-gradient(to bottom, #EC892A, #c26c1b);
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: Kohinoor Bangla;
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    left: 80vw;
+    top: 29vw;
+
+}
+
+
+#start {
+    background-image: linear-gradient(to bottom, #EC892A, #c26c1b);
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: Kohinoor Bangla;
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    left: 4vw;
+    top: 29vw;
+
+}
+
+#start:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+#send:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+#sendikke:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+
+#forside {
+    background-image: url(grafik/forside.svg);
+    background-size: 100%;
+    width: 29.7vw;
+    height: 24.6vw;
+    top: 19vw;
+    left: 42vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#hjerte {
+    background-image: url(grafik/hjerte.svg);
+    background-size: 100%;
+    left: 20vw;
+    width: 74vw;
+    height: 61.3vw;
+    position: absolute;
+    z-index: 1;
+}
+
+#kissing {
+    background-image: url(grafik/kissing.svg);
+    background-size: 100%;
+    width: 23.37vw;
+    height: 33.6vw;
+    top: 14vw;
+    left: 45vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#moerke {
+    pointer-events: none;
+}
+
+.dark_scene {
+    background-color: rgba(0, 0, 150, .5);
+    background-blend-mode: darken;
+    position: absolute;
+    top: -10vw;
+    left: 0;
+    width: 150vw;
+    height: 150vw;
+    z-index: 90;
+    animation-name: dark;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+@keyframes dark {
+    0% {
+        background-color: rgba(0, 0, 150, 0);
+    }
+    100% {
+        background-color: rgba(0, 0, 150, .5);
+    }
+}
+
+
+#hjerte2 {
+    position: absolute;
+
+    background-image: url(grafik/hjerte.svg);
+    background-size: 100% 100%;
+
+    left: 20vw;
+    width: 74vw;
+    height: 61.3vw;
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.02);
+
+    animation-name: hjerte_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes hjerte_kf {
+    from {
+
+        transform: scale(1.8);
+    }
+
+    to {
+
+        transform: scale(0.02);
+    }
+
+}
+
+#kissing2 {
+    background-image: url(grafik/kissing.svg);
+    background-size: 100%;
+    width: 23.37vw;
+    height: 33.6vw;
+    top: 14vw;
+    left: 45vw;
+    position: absolute;
+    z-index: 5;
+
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.02);
+
+    animation-name: hjerte_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+
+#iphone1 {
+    background-image: url(grafik/iphonetextnotsent.svg);
+    background-size: 100%;
+    left: 4vw;
+    width: 91.12vw;
+    height: 112.5vw;
+    position: absolute;
+    z-index: 1;
+}
+
+#iphone2 {
+    background-image: url(grafik/iphonetextsent.svg);
+    background-size: 100%, 200%;
+    left: 10vw;
+    width: 91.12vw;
+    height: 112.5vw;
+    position: absolute;
+    z-index: 4;
+}
+
+#chokface1 {
+    background-image: url(grafik/chokface1.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#chokface2 {
+    background-image: url(grafik/chokface2.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#chokface3 {
+    background-image: url(grafik/chokface3.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#chokface4 {
+    background-image: url(grafik/chokface4.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#chokface5 {
+    background-image: url(grafik/chokface5.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#chokface6 {
+    background-image: url(grafik/chokface6.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
 
 }
