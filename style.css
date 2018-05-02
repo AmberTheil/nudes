@@ -320,6 +320,7 @@ nav ul li a {
     height: 112.5vw;
     position: absolute;
     z-index: 1;
+    top: -20vw;
 }
 
 #iphone2 {
@@ -330,6 +331,9 @@ nav ul li a {
     height: 112.5vw;
     position: absolute;
     z-index: 4;
+    top: -20vw;
+
+
 }
 
 #chokface1 {
@@ -339,6 +343,8 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    top: 30vw;
+
 
 }
 
@@ -349,6 +355,9 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    animation-delay: 1;
+    top: 30vw;
+    left: 60vw;
 
 }
 
@@ -359,6 +368,9 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    animation-delay: 1.1;
+    top: 30vw;
+    left: 50vw;
 
 }
 
@@ -369,6 +381,9 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    animation-delay: 1.2;
+    top: 31vw;
+    left: 10vw;
 
 }
 
@@ -379,6 +394,9 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    animation-delay: 1.3;
+    top: 30vw;
+    left: 20vw;
 
 }
 
@@ -389,5 +407,45 @@ nav ul li a {
     height: 37.81vw;
     position: absolute;
     z-index: 5;
+    animation-delay: 1.4;
+    top: 30vw;
+    left: 35vw;
+}
+
+#cry {
+    background-image: url(grafik/cry.svg);
+    background-size: 100%;
+    width: 40.187vw;
+    height: 31.56vw;
+    position: absolute;
+    z-index: 5;
+    animation-delay: 1.4;
+    left: 60vw;
+}
+
+#politisur {
+    background-image: url(grafik/politisur.svg);
+    background-size: 100%;
+    width: 108vw;
+    height: 159vw;
+    position: absolute;
+    z-index: 5;
+    animation-delay: 1.4;
+    top: -19vw;
+    left: 10vw;
+
+
+}
+
+#polititext {
+    background-image: url(grafik/polititext.svg);
+    background-size: 100%;
+    width: 108vw;
+    height: 159vw;
+    position: absolute;
+    z-index: 5;
+    animation-delay: 1.4;
+    top: -19vw;
+    left: 10vw;
 
 }
