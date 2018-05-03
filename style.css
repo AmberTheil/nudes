@@ -390,6 +390,8 @@ body {
 h2 {
     font-family: "Kohinoor Bangla";
     text-align: center;
+    padding-top: 20vw;
+    padding-left: 34vw;
     font-size: 2em;
     color: white;
 }
