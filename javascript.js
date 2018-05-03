@@ -22,6 +22,10 @@ function sidenVises() {
     $("#cry").hide();
     $("#politisur").hide();
     $("#polititext").hide();
+    $("#af").hide();
+    $("#logo1").hide();
+    $("#logo2").hide();
+    $("#retry").hide();
     $("#sweet")[0].play();
     $("#sweet")[0].volume = .5;
 }
@@ -92,6 +96,7 @@ function sendt() {
     $("#send").hide();
     $("#sendikke").hide();
     $("#iphone2").show();
+    $("#phonesound")[0].play();
 
     setTimeout(chokface1, 5000);
 }
@@ -101,6 +106,7 @@ function chokface1() {
 
     $("#iphone2").hide();
     $("#chokface1").show();
+    $("#gasp")[0].play();
 
     setTimeout(chokface2, 0500);
 }
@@ -146,6 +152,8 @@ function chokface6() {
 function cry() {
     console.log("græder");
 
+
+    $("#crying")[0].play();
     $("#cry").show();
     setTimeout(politi, 7000);
 }
@@ -161,8 +169,12 @@ function politi() {
     $("#chokface6").hide();
     $("#cry").hide();
     $("#politisur").show();
+    $("#politilyd")[0].play();
+    $("#af").show();
+    $("#logo2").show();
+    $("#retry").show();
 
-    $("#reset_sprite").on("click", reset);
+    $("#retry").on("click", reset);
 
 }
 
@@ -175,8 +187,12 @@ function ikkeSendt() {
     $("#sendikke").hide();
 
     $("#polititext").show();
+    $("#politiglad")[0].play();
+    $("#af").show();
+    $("#logo1").show();
+    $("#retry").show();
 
-    $("#reset_sprite").on("click", reset);
+    $("#retry").on("click", reset);
 
 
 }
