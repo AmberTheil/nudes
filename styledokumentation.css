@@ -4,13 +4,14 @@ body {
 }
 
 h1 {
-    font-family: Kohinoor Bangla;
+    font-family: "Kohinoor Bangla";
     font-size: 3em;
     color: #8fc6de;
+    text-align: center;
 }
 
 h2 {
-    font-family: Kohinoor Bangla;
+    font-family: "Kohinoor Bangla";
     text-align: center;
     font-size: 2em;
     color: #8fc6de;
@@ -141,6 +142,22 @@ img {
     margin-top: 30%;
 }
 
+#facebook/instagram img {
+    width: 100%;
+    margin: 2%;
+    margin-top: 30%;
+    align-items: center;
+    flex-direction: row;
+}
+
+#animation a {
+    font-family: "Kohinoor Bangla";
+    margin-left: 40vw;
+    font-size: 1em;
+    color: black;
+}
+
+
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -157,8 +174,8 @@ img {
     text-align: center;
     border-radius: 28vw;
     font-weight: bold;
-    font-family: Kohinoor Bangla;
-    color: #ffffff;
+    font-family: "Kohinoor Bangla"";
+ color: #ffffff;
     font-size: 2em;
     cursor: pointer;
     z-index: 20;
@@ -176,8 +193,8 @@ img {
     text-align: center;
     border-radius: 28vw;
     font-weight: bold;
-    font-family: Kohinoor Bangla;
-    color: #ffffff;
+    font-family: "Kohinoor Bangla"";
+ color: #ffffff;
     font-size: 2em;
     cursor: pointer;
     z-index: 20;
